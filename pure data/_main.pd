@@ -1,4 +1,4 @@
-#N canvas 98 46 893 774 12;
+#N canvas 1932 -16 893 774 12;
 #X obj 101 29 adc~;
 #X obj 175 267 freeverb~;
 #X msg 593 124 roomsize \$1;
@@ -11,20 +11,20 @@
 -2 -8 0 10 -262144 -1 -1 0 1;
 #X obj 470 377 zero_zero;
 #X obj 473 353 hsl 128 15 0 1 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 5200 1;
-#X obj 609 354 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
+-1 -1 4200 1;
+#X obj 609 354 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
 1;
 #X floatatom 650 74 5 0 0 0 - - -;
 #X obj 650 51 expr 1 - $f1;
 #X obj 596 103 hsl 128 15 0 1 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 7500 1;
+-1 -1 12700 1;
 #X obj 596 149 hsl 128 15 0 1 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 4900 1;
+-1 -1 0 1;
 #X obj 596 197 hsl 128 15 0 1 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 9400 1;
+-1 -1 0 1;
 #X obj 101 100 *~;
 #X obj 184 23 hsl 128 15 0 1 0 0 empty empty mic_vol -2 -8 0 10 -262144
--1 -1 7900 1;
+-1 -1 8200 1;
 #X floatatom 181 43 5 0 0 0 - - -;
 #X obj 181 65 pack \$1 10;
 #X obj 181 88 line~;
